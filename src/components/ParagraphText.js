@@ -14,7 +14,7 @@ line-height:1.3em;
 function ParagraphText({ children }) {
   //console.log(props.children);
   return (
-    <ParagraphStyle>
+    <ParagraphStyle className="para">
       <p>{children}</p>
     </ParagraphStyle>
   );

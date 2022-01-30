@@ -28,11 +28,9 @@ export default function Button({
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <Router>
-        <Link className="button" to={btnLink}>
-          {btnText}
-        </Link>
-      </Router>
+      <Link className="button" to={btnLink}>
+        {btnText}
+      </Link>
     </ButtonStyle>
   );
 }

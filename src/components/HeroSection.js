@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/images/kiran_profile.jpg";
-import Button from "../components/Button";
-import ParagraphText from "../components/ParagraphText";
+import Button from "./Button";
+import ParagraphText from "./ParagraphText";
 import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import styled from "styled-components";
@@ -166,20 +166,20 @@ function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://github.com/karkixitiz"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    GIT
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.linkedin.com/in/kiran-karki-7a2273a8/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    LK
                   </a>
                 </li>
               </ul>
