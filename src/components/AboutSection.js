@@ -31,6 +31,43 @@ const AboutSectionStyle = styled.div`
     gap: 2rem;
     margin-top: 2rem;
   }
+  @media only screen and (max-width: 950px) {
+    .aboutSection_left {
+      flex: 4;
+    }
+    .aboutSection_right {
+      flex: 3;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .aboutSection_left,
+    .aboutSection_right {
+      width: 100%;
+    }
+    .aboutSection_right {
+      margin-top: 3rem;
+    }
+    .section-title {
+      text-align: center;
+    }
+    .para {
+      margin: 0 auto;
+      margin-top: 2rem;
+    }
+    .aboutSection_buttons {
+      flex-direction: column;
+      gap: 0;
+      .button-wrapper,
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
 `;
 
 function AboutSection() {
