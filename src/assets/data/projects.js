@@ -1,44 +1,39 @@
-import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import { v4 as uuidv4 } from "uuid";
+import ProjectImg from "../images/projectImg.png";
+import CovidTrackerImg from "../images/covid-19.PNG";
+import WebShopImg from "../images/e-shop.jpg";
+import BoatTourImg from "../images/boat-tour.jpg";
+import FotoScoutImg from "../images/FotoScout.PNG";
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
-    desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+    name: "Covid-19 Tracker",
+    desc: "An application to track number of people affected from Covid-19. This is responsive web application design in react.",
+    img: CovidTrackerImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
-    desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+    name: "Web Shop",
+    desc: "A web shop design in PHP, implemented web security practices into consideration.",
+    img: WebShopImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
-    desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+    name: "Boat Tour Manager",
+    desc: "It represents a boat company, offering group trips and boat rentals. Design in .Net Framework.",
+    img: BoatTourImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+    name: "Foto Scout",
+    desc: "Web application design for photographer to explore photography location. The portfolio is made using Vue.js,Express.js and MongoDb",
+    img: FotoScoutImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    name: "Tracking Soft",
+    desc: "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
     img: ProjectImg,
   },
 ];

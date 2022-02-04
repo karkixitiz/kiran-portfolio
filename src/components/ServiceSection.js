@@ -32,7 +32,7 @@ function ServiceSection() {
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="Web Design"
-            description="Designing engaging and responsive landing pages. Optimising sites for maximum speed and scalability. Integrating client CMS programs and data feeds into websites."
+            description="Designing engaging and responsive landing pages. Optimising sites for maximum speed and scalability."
           />
           <ServicesSectionItem
             icon={<MdCode />}
