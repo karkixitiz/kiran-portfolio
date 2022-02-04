@@ -1,19 +1,19 @@
 import React from "react";
+import { MdDesktopMac, MdCode, MdPhonelinkSetup } from "react-icons/md";
 import styled from "styled-components";
 import SectionTitle from "./SectionTitle";
 import ServicesSectionItem from "./ServicesSectionItem";
-import { MdCode, MdDesktopMac, MdPhonelinkSetup } from "react-icons/md";
 
-const ServicesItemStyles = styled.div`
+const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
-  .services_allItems {
+  .services__allItems {
     display: flex;
     gap: 10rem;
-    justify-content: margin-between;
+    justify-content: space-between;
     margin-top: 5rem;
   }
-  @media only srceen and(max-width:768px) {
-    .services_allItems {
+  @media only screen and (max-width: 768px) {
+    .services__allItems {
       flex-direction: column;
       max-width: 350px;
       margin: 0 auto;
@@ -23,31 +23,29 @@ const ServicesItemStyles = styled.div`
   }
 `;
 
-function ServiceSection() {
+export default function ServicesSection() {
   return (
-    <ServicesItemStyles>
+    <ServicesItemsStyles>
       <div className="container">
-        <SectionTitle heading="Services" subheading="What I will do for you" />
-        <div className="services_allItems">
+        <SectionTitle subheading="What i will do for you" heading="Services" />
+        <div className="services__allItems">
           <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="Web Design"
-            description="Designing engaging and responsive landing pages. Optimising sites for maximum speed and scalability."
+            title="web design"
+            desc="Designing engaging and responsive landing pages. Optimising sites for maximum speed and scalability."
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="Web Development"
-            description="I also do a web development. I create high performance website with blazing fast spped."
+            title="web development"
+            desc="I also do a web development. I create high performance website with blazing fast spped."
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
             title="App Development"
-            description="I develop mobile application. I create mobile app with eye catching UI"
+            desc="I develop mobile application. I create mobile app with eye catching UI. "
           />
         </div>
       </div>
-    </ServicesItemStyles>
+    </ServicesItemsStyles>
   );
 }
-
-export default ServiceSection;
