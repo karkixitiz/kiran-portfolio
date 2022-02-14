@@ -80,8 +80,9 @@ function AboutSection() {
             heading="About me"
           />
           <ParagraphText>
-            I'm student and looking start up job. I love art and always try to
-            show unique views to the audience through my design.
+            I'm student and looking start up job. I love coding and always try
+            to show unique views to the audience through my design and web
+            functionality.
           </ParagraphText>
           <div className="aboutSection_buttons">
             <Button btnLink="/projects" btnText="Works" />

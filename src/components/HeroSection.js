@@ -144,7 +144,7 @@ function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero_heading">
-            <span>Hello, This is</span>
+            <span>Hello, it's me</span>
             <span className="hero_name">Kiran Karki</span>
           </h1>
           <div className="hero_image">
@@ -152,8 +152,9 @@ function HeroSection() {
           </div>
           <div className="hero_info">
             <ParagraphText>
-              I'm currently Studying Master in Information Engineering. I love
-              to design and make new web experiences for the people.
+              I'm currently Studying Master's in Information Engineering. I love
+              to design and develop new web experiences application for the
+              people.
             </ParagraphText>
             <Button btnText="see my work" btnLink="/projects" />
           </div>

@@ -57,8 +57,8 @@ function Footer() {
         <div className="footer_col1">
           <h1 className="footer_col1_title"> Kiran Karki</h1>
           <ParagraphText>
-            I'm a student currently from Germany. I always make websites that
-            have unique designs and also has a good performance rate.
+            "Don't write better error messages, write code that doesn't need
+            them." - Jason C. McDonald
           </ParagraphText>
         </div>
 
@@ -94,12 +94,12 @@ function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: "+493435435",
-                path: "tel:+493543656",
+                title: "+491794390866",
+                path: "tel:+491794390866",
               },
               {
                 title: "karkikiran714@gmail.com",
-                path: "tel:+493543656",
+                path: "www.gmail.com",
               },
               {
                 title: "Kiel, Germany",
