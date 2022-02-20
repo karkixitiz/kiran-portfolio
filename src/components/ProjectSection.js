@@ -86,12 +86,14 @@ export default function ProjectsSection() {
               if (index >= 5) {
                 return 0;
               }
+              console.log(project);
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                    path={project.path}
                   />
                 </SwiperSlide>
               );

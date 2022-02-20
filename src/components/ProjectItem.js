@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ProjectImg from "../assets/images/projectImg.png";
+import { AiFillGithub } from "react-icons/ai";
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -21,8 +22,17 @@ const ProjectItemStyles = styled.div`
     padding: 1rem;
     border-radius: 12px;
   }
+  .projectItem_icon {
+    svg {
+      width: 3rem;
+    }
+  }
   .projectItem__title {
     font-size: 2.2rem;
+  }
+  .projectItem_head {
+    display: flex;
+    justify-content: space-between;
   }
   .projectItem__desc {
     font-size: 1.6rem;
@@ -40,6 +50,7 @@ export default function ProjectItem({
   img = ProjectImg,
   title = "Project Name",
   desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  path = "",
 }) {
   return (
     <ProjectItemStyles>
@@ -47,9 +58,18 @@ export default function ProjectItem({
         <img src={img} alt="project img" />
       </Link>
       <div className="projectItem__info">
-        <Link to="#">
+        <div className="projectItem_head">
           <h3 className="projectItem__title">{title}</h3>
-        </Link>
+
+          <a
+            href={path}
+            target="_blank"
+            rel="noreferrer"
+            className="projectItem_icon"
+          >
+            <AiFillGithub />
+          </a>
+        </div>
         <p className="projectItem__desc">{desc}</p>
       </div>
     </ProjectItemStyles>

@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import ProjectImg from "../images/projectImg.png";
+import ProjectImg from "../images/lecture_planner.png";
 import CovidTrackerImg from "../images/covid-19.PNG";
 import WebShopImg from "../images/e-shop.jpg";
 import BoatTourImg from "../images/boat-tour.jpg";
@@ -11,30 +11,35 @@ const projects = [
     name: "Covid-19 Tracker",
     desc: "An application to track number of people affected from Covid-19. This is responsive web application design in react.",
     img: CovidTrackerImg,
+    path: "https://github.com/karkixitiz/covid-19-tracker",
   },
   {
     id: uuidv4(),
     name: "Web Shop",
     desc: "A web shop design in PHP, implemented web security practices into consideration.",
     img: WebShopImg,
+    path: "https://github.com/karkixitiz/Secure-WebShop",
   },
   {
     id: uuidv4(),
     name: "Boat Tour Manager",
     desc: "It represents a boat company, offering group trips and boat rentals. Design in .Net Framework.",
     img: BoatTourImg,
+    path: "https://github.com/karkixitiz/Boat-Tours-Manager",
   },
   {
     id: uuidv4(),
-    name: "Foto Scout",
+    name: "Photo Tracker",
     desc: "Web application design for photographer to explore photography location. The portfolio is made using Vue.js,Express.js and MongoDb",
     img: FotoScoutImg,
+    path: "https://github.com/karkixitiz/Photo-Tracker",
   },
   {
     id: uuidv4(),
-    name: "Tracking Soft",
-    desc: "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
+    name: "Lecture Planner",
+    desc: "An application to allow university students in Kiel to find out possible ways for them to reach their university from current/desired location.",
     img: ProjectImg,
+    path: "https://github.com/karkixitiz/Lecture-Planner",
   },
 ];
 

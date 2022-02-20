@@ -27,8 +27,8 @@ function ContactBanner() {
     <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner_wrapper">
-          <ParagraphText>Have a project in mind</ParagraphText>
-          <h3 className="contactBanner_heading">Let me help you</h3>
+          <ParagraphText>Find my profile Interesting?</ParagraphText>
+          <h3 className="contactBanner_heading">I'm waiting your response</h3>
           <Button btnText="Contact Now" btnLink="/contact" />
         </div>
       </div>

@@ -80,9 +80,9 @@ function About() {
         <div className="top-section">
           <div className="left">
             <p className="about_subheading">
-              Hi, I'm <span>Kiran Karki</span>
+              Hi, My name is <span>Kiran Karki</span>
             </p>
-            <h2 className="about_heading">Full Stack Web Developer</h2>
+            <h2 className="about_heading">Web Developer</h2>
             <div className="about_info">
               <ParagraphText>
                 I am originally from Nepal and currently living in kiel,
@@ -91,20 +91,18 @@ function About() {
                 <br /> <br />
                 I started coding since I was in high school. After my Bachelor
                 degree, I worked as a software developer for almost two years.
-                Coding is also an art for me. I love it and now I have the
-                opportunity to design along with the coding. I find it really
-                interesting and I enjoyed the process a lot.
+                Coding is also an art for me. I find it really interesting and I
+                enjoyed the process a lot.
                 <br /> <br />
                 Because of some reasons I couldn't continue my programming
-                habites but now I'm fully enthusiastic to make my Career in IT
+                skills but now I'm fully enthusiastic to make my Career in IT
                 sector. I prefer to work as a full stack web developer and
                 looking for a beginning position in a company.
                 <br />
                 <br />
                 My vision is to make the world a better place through new
-                technology. Now almost everything is becoming better than ever.
-                It is time for us to create more good stuff that helps the world
-                to become a better place.
+                technology. It is time for us to create more good stuff that
+                helps the world to become a better place.
               </ParagraphText>
             </div>
             <Button btnText="Download CV" btnLink="#" />
@@ -144,7 +142,7 @@ function About() {
             />
             <AboutInfoItem
               title="BackEnd"
-              items={["Node", "Express", ".Net", "PHP"]}
+              items={["Node", "Express", ".Net C#", "PHP", "Typescript"]}
             />
             <AboutInfoItem
               title="IDE"

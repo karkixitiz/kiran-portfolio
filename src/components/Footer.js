@@ -99,7 +99,7 @@ function Footer() {
               },
               {
                 title: "karkikiran714@gmail.com",
-                path: "www.gmail.com",
+                path: "https://www.gmail.com",
               },
               {
                 title: "Kiel, Germany",
@@ -118,7 +118,7 @@ function Footer() {
               },
               {
                 title: "Instagram",
-                path: "http://instagram.com",
+                path: "https://www.instagram.com/kirankark/",
               },
               {
                 title: "Linkedin",
