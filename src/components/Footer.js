@@ -113,12 +113,8 @@ function Footer() {
             heading="Social Links"
             links={[
               {
-                title: "Facebook",
-                path: "https://www.facebook.com/kiran.karki.108/",
-              },
-              {
-                title: "Instagram",
-                path: "https://www.instagram.com/kirankark/",
+                title: "GitHub",
+                path: "https://github.com/karkixitiz",
               },
               {
                 title: "Linkedin",
